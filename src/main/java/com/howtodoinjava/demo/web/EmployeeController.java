@@ -52,5 +52,9 @@ public class EmployeeController
         service.deleteEmployeeById(id);
         return HttpStatus.FORBIDDEN;
     }
- 
+  @GetMapping("/test")
+    public String getAllEmployees() {
+       
+        return "hello World";
+    }
 }
