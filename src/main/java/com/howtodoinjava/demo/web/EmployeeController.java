@@ -53,7 +53,7 @@ public class EmployeeController
         return HttpStatus.FORBIDDEN;
     }
   @GetMapping("/test")
-    public String getAllEmployees() {
+    public String dispAllEmployees() {
        
         return "hello World";
     }
